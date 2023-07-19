@@ -40,9 +40,3 @@
   background-color: #eaeaea;
 }
 /* tag end */
-
-/* jumbotron */
-.jumbotron {
-  background-image: var("../img/hero-image.png");
-}
-/* end of jumbotron */
