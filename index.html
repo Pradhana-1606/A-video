@@ -30,7 +30,7 @@
           <img src="img/A-video.svg" alt="A-video Logo" />
         </a>
         <form
-          class="d-flex nav-search width-100px d-none d-lg-block"
+          class="d-flex nav-search width-100px d-none d-lg-block mt-2 mb-2"
           role="search"
         >
           <div class="input-group">
@@ -51,17 +51,20 @@
             </button>
           </div>
         </form>
-        <button
-          class="navbar-toggler border border-0"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasDarkNavbar"
-          aria-controls="offcanvasDarkNavbar"
-          aria-label="Toggle navigation"
-          id="menu"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="container-menu">
+          <a href="#"><i class="bi bi-bell-fill fa-lg text-secondary"></i></a>
+          <button
+            class="navbar-toggler border border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            aria-label="Toggle navigation"
+            id="menu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
         <div
           class="offcanvas offcanvas-end text-bg-dark"
           tabindex="-1"
@@ -84,7 +87,7 @@
               id="close"
             ></button>
           </div>
-          <form class="d-flex mt-3 menu-search" role="search">
+          <form class="d-flex mt-3 menu-search d-lg-none" role="search">
             <div class="input-group px-3">
               <input
                 type="text"
@@ -106,7 +109,7 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 fs-5">
               <li class="nav-item">
-                <a class="nav-link" href="#"
+                <a class="nav-link text-white fs-6" href="#"
                   >Subscribe Premium Version
                   <i class="fa-solid fa-crown" style="color: #f7df09"></i
                 ></a>
