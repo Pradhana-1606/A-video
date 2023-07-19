@@ -1,3 +1,4 @@
+/* navbar */
 .navbar .navbar-brand img {
   object-fit: cover;
   width: 7rem;
@@ -16,3 +17,4 @@
 #menu,#close:focus {
   box-shadow: none;
 }
+/* navbar end */
