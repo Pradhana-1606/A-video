@@ -1,20 +1,28 @@
 /* navbar */
-.navbar .navbar-brand img {
+.navbar .navbar-brand img,
+.offcanvas-title img {
   object-fit: cover;
   width: 7rem;
   height: 2rem;
 }
 
-.navbar .container .btn {
+.navbar .nav-search {
+  width: 30rem;
+}
+
+.navbar .nav-search .btn,
+.menu-search .btn {
   background-color: #dd2e44;
 }
 
-#search-input:focus {
+#nav-search:focus,
+#menu-search:focus {
   border-color: #dd2e44;
   box-shadow: none;
 }
 
-#menu,#close:focus {
+#menu:focus,
+#close:focus {
   box-shadow: none;
 }
 /* navbar end */
