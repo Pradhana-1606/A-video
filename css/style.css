@@ -26,3 +26,23 @@
   box-shadow: none;
 }
 /* navbar end */
+
+/* tag */
+.tag {
+  margin-top: 4.4rem;
+}
+
+.tag .btn {
+  margin: 0.7rem 0.4rem;
+}
+
+.tag .no-active {
+  background-color: #eaeaea;
+}
+/* tag end */
+
+/* jumbotron */
+.jumbotron {
+  background-image: var("../img/hero-image.png");
+}
+/* end of jumbotron */
