@@ -63,3 +63,22 @@
   width: 2.5rem;
 }
 /* card end */
+
+/* pagination */
+.pagination .active .two {
+  background-color: #dd2e44;
+  border-color: #dd2e44;
+}
+/* pagination end */
+
+/* footer */
+.footer {
+  height: 5rem;
+  position: relative;
+  bottom: 0;
+}
+
+.footer p {
+  line-height: 5rem;
+}
+/* footer end */
